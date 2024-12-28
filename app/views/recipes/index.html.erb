@@ -1,0 +1,9 @@
+<h1>Nossas Receitas!</h1>
+
+<div id="receitas">
+  <% @recipes.each do |recipe| %>
+    <div>
+      <%= recipe.title %>
+    </div>
+  <% end %>
+</div>
